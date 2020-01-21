@@ -25,14 +25,15 @@ body {
 header{
     width: 100%;
     height: 250px;
-    background-color: #27ae60;
-    margin-bottom: 4px;
+    background-color: #fff;
+    margin-bottom: 5px;
 }
 
 .top-image{
     width: 100%;
     height: 200px;
     position: relative;
+    padding: 5px;
 }
 
 header img{
@@ -64,51 +65,79 @@ header img{
     text-align: center;
 }
 
-.nav-menu a{
+.nav-menu li{
     display: inline-block;
     font-size: 20px;
     padding: 0 15px;
     border-left: 1px solid black;
-    color: white;
-    text-decoration: none;
     margin-right: -4px;
 
 }
-
-a:hover {
-    background: rgba(0, 0, 0, 0.5);
+.nav-menu a{
+    color: white;
+    text-decoration: none;
 }
 
-main{
-    width: 100%;
-    margin-bottom: 4px;
+.nav-menu li:hover {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 footer{
     width: 100%;
     height: 70px;
     background-color: #e67e22;
+    margin-top: 5px;
 }
 
-.left-column{
+aside{
     width: 25%;
-    height: 300px;
-    background-color: #2980b9;
     float: left;
-    margin-right: 1%;
 }
 
-.contenuto{
-    width: 48%;
-    height: 430px;
+main{
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+}
+
+main .content{
     background-color: #e74c3c;
-    float: left;
 }
 
-.right-column{
-    width: 25%;
-    height: 300px;
-    background-color: #2980b9;
-    float: right;
-    margin-left: 1%;
+.feed-rss{
+    text-align: center;
+    background-color: #1e272e;
+}
+
+.feed-rss li{
+    padding: 10px;
+    display: block;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.feed-rss h3{
+    padding: 10px;
+    color: white;
+}
+
+.feed-rss a{
+    text-decoration: none;
+    color: #48dbfb;
+}
+
+.widget{
+    margin-bottom: 20px;
+    background-color: #1e272e;
+}
+
+.widget h3{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.widget p{
+    color:white;
+    padding: 0px 20px 20px;
 }
